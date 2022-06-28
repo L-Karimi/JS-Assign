@@ -16,15 +16,13 @@
 // following two numbers: 10 & 40
 // 6. Write a JavaScript program to find leap years from 2000 to 2022
 
-
-function fizzbuzz(){
-for (var i = 0; i < 101; i++) {
-  if (i % 15 == 0) console.log("Fizz");
-  else if (i % 3 == 0) console.log("Buzz");
-  else if (i % 3 == 0) console.log("FizzBuzz");
-  console.log(i);
-}
-
+function fizzbuzz() {
+  for (var i = 0; i < 101; i++) {
+    if (i % 15 == 0) console.log("Fizz");
+    else if (i % 3 == 0) console.log("Buzz");
+    else if (i % 3 == 0) console.log("FizzBuzz");
+    console.log(i);
+  }
 }
 
 function multiplications() {
@@ -33,17 +31,41 @@ function multiplications() {
   }
   return sum;
 }
-console.log(sum);
+console.log(x);
 
-
-function message(){
-    for (var z=0;z<21;z++){
-        if (z%2==0){
-            console.log("${z} is even");
-        }
-    else{
-        console.log("${z} is odd");
-
+function message() {
+  for (var z = 0; z < 21; z++) {
+    if (z % 2 == 0) {
+      console.log("${z} is even");
+    } else {
+      console.log("${z} is odd");
     }
+  }
 }
+
+let num = [-2, 4, -5, 6, 0];
+let largest = 0;
+for (var k = 0; k < num.length; k++) {
+  if (num[k] > largest) {
+    largest = num[k];
+  }
 }
+console.log(largest);
+
+let largeNum = [10, 20];
+let num1 = 0;
+for (var p = 0; p < largeNum.length; p++) {
+  if (largeNum[p] > num1) {
+    num1 = largeNum[p];
+  }
+}
+
+function leapYear(){
+  for(var w=2000;w<2023;w++){
+    if (w%4==o){
+      console.log("Leap Year")
+    }else;
+console.log("Not a leap year")
+  }
+}
+
