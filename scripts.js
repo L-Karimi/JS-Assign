@@ -21,12 +21,12 @@ fizzbuzz();
 // 2. Write a JavaScript program to sum the multiples of 3 and 5 under 1000.
 function multiples(){
   sum=0;
-  for (var x = 0; x < 1001; x++) {
+  for (var x = 0; x < 1000; x++) {
     if (x % 3 === 0 || x % 5 === 0) {
-      sum += 1;
+      sum += x;
     }
   }
-  console.log(x);
+  console.log(sum);
 }
 multiples();
 
